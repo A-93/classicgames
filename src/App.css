@@ -1,0 +1,39 @@
+html {
+  width: 100%;
+}
+body {
+  background-color: black;
+  color: white;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.App {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.score {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 4rem; /* Make score size more visible */
+}
+
+.left-paddle {
+  position: absolute;
+  left: 0;
+  width: 20px;
+  height: 150px;
+  background-color: white;
+}
+
+.right-paddle {
+  position: absolute;
+  right: 0;
+  width: 20px;
+  height: 150px;
+  background-color: white;
+}
